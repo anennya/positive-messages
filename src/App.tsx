@@ -80,23 +80,23 @@ function App() {
           {/* Icon */}
           <div className="mb-8 flex justify-center">
             <div className="p-4 bg-white/20 backdrop-blur-sm rounded-full shadow-lg animate-bounce" style={{ animationDuration: '3s' }}>
-              <IconComponent className="w-12 h-12 text-white" />
+              <IconComponent className="w-12 h-12 text-black" />
             </div>
           </div>
 
           {/* Date */}
           <div className="mb-6">
-            <p className="text-white/80 text-lg font-medium tracking-wide">
+            <p className="text-black/80 text-lg font-medium tracking-wide">
               {currentDate}
             </p>
           </div>
 
           {/* Main message */}
           <div className="bg-white/20 backdrop-blur-md rounded-3xl p-8 md:p-12 shadow-2xl border border-white/30 hover:bg-white/25 transition-all duration-300 hover:scale-105 hover:shadow-3xl">
-            <h1 className="text-3xl md:text-5xl font-bold text-white mb-6 leading-tight">
+            <h1 className="text-3xl md:text-5xl font-bold text-black mb-6 leading-tight">
               Your Daily Inspiration
             </h1>
-            <blockquote className="text-xl md:text-2xl text-white/90 leading-relaxed font-medium italic">
+            <blockquote className="text-xl md:text-2xl text-black/90 leading-relaxed font-medium italic">
               "{currentMessage}"
             </blockquote>
           </div>
@@ -106,7 +106,7 @@ function App() {
             {[1, 2, 3].map((i) => (
               <div
                 key={i}
-                className="w-3 h-3 bg-white/50 rounded-full animate-pulse"
+                className="w-3 h-3 bg-black/50 rounded-full animate-pulse"
                 style={{ animationDelay: `${i * 0.5}s` }}
               ></div>
             ))}
@@ -114,7 +114,7 @@ function App() {
 
           {/* Inspirational footer */}
           <div className="mt-8">
-            <p className="text-white/70 text-sm font-medium">
+            <p className="text-black/70 text-sm font-medium">
               ✨ A new message awaits you tomorrow ✨
             </p>
           </div>
@@ -123,13 +123,15 @@ function App() {
 
       {/* Floating elements */}
       <div className="absolute top-10 right-10 animate-float">
+ main
         <Moon className="w-6 h-6 text-white/30" />
+
       </div>
       <div className="absolute bottom-20 left-10 animate-float" style={{ animationDelay: '1s' }}>
-        <Heart className="w-5 h-5 text-white/30" />
+        <Heart className="w-5 h-5 text-black/30" />
       </div>
       <div className="absolute top-1/3 right-20 animate-float" style={{ animationDelay: '2s' }}>
-        <Sparkles className="w-4 h-4 text-white/30" />
+        <Sparkles className="w-4 h-4 text-black/30" />
       </div>
     </div>
   );
