@@ -94,7 +94,7 @@ const DailyInspiration: React.FC = () => {
           {/* Main message */}
           <div className="bg-white/20 backdrop-blur-md rounded-3xl p-8 md:p-12 shadow-2xl border border-white/30 hover:bg-white/25 transition-all duration-300 hover:scale-105 hover:shadow-3xl">
             <h1 className="text-3xl md:text-5xl font-bold text-black mb-6 leading-tight">
-              Your Daily Inspiration
+              Come get inspired
             </h1>
             <blockquote className="text-xl md:text-2xl text-black/90 leading-relaxed font-medium italic">
               "{currentMessage}"

@@ -18,7 +18,7 @@ const Navigation: React.FC = () => {
             }`}
           >
             <Home className="w-4 h-4" />
-            <span>Daily Inspiration</span>
+            <span>Come get inspired</span>
           </Link>
           <Link
             to="/feynman"
