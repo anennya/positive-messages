@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Sun, Heart, Star, Sparkles } from 'lucide-react';
+import { Sun, Heart, Moon, Sparkles } from 'lucide-react';
 
 function App() {
   const [currentMessage, setCurrentMessage] = useState('');
@@ -62,7 +62,7 @@ function App() {
     setTimeout(() => setIsVisible(true), 100);
   }, []);
 
-  const iconComponents = [Sun, Heart, Star, Sparkles];
+  const iconComponents = [Sun, Heart, Moon, Sparkles];
   const IconComponent = iconComponents[Math.floor(Math.random() * iconComponents.length)];
 
   return (
@@ -123,7 +123,9 @@ function App() {
 
       {/* Floating elements */}
       <div className="absolute top-10 right-10 animate-float">
-        <Star className="w-6 h-6 text-black/30" />
+ main
+        <Moon className="w-6 h-6 text-white/30" />
+
       </div>
       <div className="absolute bottom-20 left-10 animate-float" style={{ animationDelay: '1s' }}>
         <Heart className="w-5 h-5 text-black/30" />
