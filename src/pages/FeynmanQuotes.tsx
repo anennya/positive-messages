@@ -54,12 +54,12 @@ const FeynmanQuotes: React.FC = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-600 via-purple-400 to-indigo-300 relative overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-yellow-400 via-yellow-300 to-amber-200 relative overflow-hidden">
       {/* Animated background elements */}
       <div className="absolute inset-0">
         <div className="absolute top-32 left-16 w-72 h-72 bg-white/10 rounded-full blur-xl animate-pulse"></div>
-        <div className="absolute bottom-20 right-20 w-80 h-80 bg-purple-100/30 rounded-full blur-2xl animate-pulse" style={{ animationDelay: '3s' }}></div>
-        <div className="absolute top-2/3 left-1/4 w-56 h-56 bg-indigo-300/20 rounded-full blur-xl animate-pulse" style={{ animationDelay: '1.5s' }}></div>
+        <div className="absolute bottom-20 right-20 w-80 h-80 bg-yellow-100/30 rounded-full blur-2xl animate-pulse" style={{ animationDelay: '3s' }}></div>
+        <div className="absolute top-2/3 left-1/4 w-56 h-56 bg-amber-300/20 rounded-full blur-xl animate-pulse" style={{ animationDelay: '1.5s' }}></div>
       </div>
 
       {/* Main content */}
