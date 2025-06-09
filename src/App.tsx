@@ -66,12 +66,12 @@ function App() {
   const IconComponent = iconComponents[Math.floor(Math.random() * iconComponents.length)];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-400 via-pink-300 to-blue-400 relative overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-blue-600 via-blue-400 to-blue-200 relative overflow-hidden">
       {/* Animated background elements */}
       <div className="absolute inset-0">
         <div className="absolute top-20 left-20 w-64 h-64 bg-white/10 rounded-full blur-xl animate-pulse"></div>
-        <div className="absolute bottom-32 right-32 w-96 h-96 bg-yellow-200/20 rounded-full blur-2xl animate-pulse" style={{ animationDelay: '2s' }}></div>
-        <div className="absolute top-1/2 left-1/3 w-48 h-48 bg-blue-200/15 rounded-full blur-xl animate-pulse" style={{ animationDelay: '4s' }}></div>
+        <div className="absolute bottom-32 right-32 w-96 h-96 bg-blue-100/30 rounded-full blur-2xl animate-pulse" style={{ animationDelay: '2s' }}></div>
+        <div className="absolute top-1/2 left-1/3 w-48 h-48 bg-blue-300/20 rounded-full blur-xl animate-pulse" style={{ animationDelay: '4s' }}></div>
       </div>
 
       {/* Main content */}
